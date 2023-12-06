@@ -49,3 +49,42 @@ body {
   .feature {
       width: 200px;
   }
+
+nav ul{
+    display:  flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+}
+
+article img{
+    float: left;
+    margin: 15px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+}
+
+article{
+    width: 50vw;
+}
+
+aside ul{
+    width: 30vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.photos li{
+    width: 50%;
+}
